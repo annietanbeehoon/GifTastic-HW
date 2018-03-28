@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GifTastic</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <!-- Latest compiled and minified jQuery -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+
+<body>
+    <div class="row">
+        <div class="page-header" "col-md-9">
+            <h1>GifTastic - Extreme Weather
+                <small id=smalltext>Double click Gif to watch it animate!</small>
+            </h1>
+            <!--<div class="giphy" "col-md-3" style="float: right">Powered by GIPHY<img class="gif-icon" src="assets/images/PoweredBy_200_Horizontal_Light-Backgrounds_With_Logo.gif"></div>-->
+        </div>
+    </div>
+
+    <div class="maincontainer">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="scienceButtons">
+                    <!-- My array of topics buttons appear here  -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <form id="science-form">
+                    <!-- Search Form Goes Here -->
+                    <!-- Adds label to search box -->
+                    <label for="science-input">
+                        <h3>Add new topics
+                        </h3>
+                    </label>
+                    <!-- Specifies what type of input and an ID  -->
+                    <input type="text" id="science-input">
+                    <!-- Adds submit button that is labeled search -->
+                    <input id="addScience" type="submit" class="btn btn-primary submitButton" value="Search">
+
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="gifContent">
+                    <!-- Contents goes here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+
+</body>
+
+</html>
